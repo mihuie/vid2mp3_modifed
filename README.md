@@ -29,5 +29,5 @@ Use it as ::
 Enter the your choice ('x' to exit)
 
 
-[Imgur](http://i.imgur.com/edsvg1f.png)
+![Imgur](http://i.imgur.com/edsvg1f.png)
 
