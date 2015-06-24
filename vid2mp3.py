@@ -14,8 +14,14 @@ import sys, os
 from bs4 import BeautifulSoup
 import time
 
+
 def download(data):
-    os.chdir('/home/mihuie/Music/')
+
+    try:
+        os.chdir('~/Music')
+    except:
+        pass
+
     try:
         new_file_name = data[1].strip("b'")
         with open("%s" % new_file_name, "wb") as fobj:
@@ -32,7 +38,7 @@ def download(data):
                 sys.stdout.write("Downloaded " + str(os.path.getsize(new_file_name)/1024) + "kb of " + str(int(size)/1024) + " kb\r")
                 sys.stdout.flush()
             print ("Download complete.")
-            sys.exit(0)
+            # sys.exit(0)
     except IOError:
         new_file_name = input("Rename mp3 manually: ")
         if not(new_file_name.endswith('.mp3')):
@@ -55,7 +61,8 @@ def process_url(s_url, sleep_time = 10):
         if not data[0]:
             raise AttributeError
         print ("Downloading: %s" % data[1])
-        print ("Fetching data from: %s" % data[0])
+        # print ("Fetching data from: %s" % data[0])
+        print ("Fetching data ...")
         return data
     except AttributeError:
         time.sleep(sleep_time)
