@@ -23,11 +23,11 @@ Use it as ::
     $ searchyt <term(s)>
 
 
-![image](http://i.imgur.com/qjmwc0O.png)
+![Imgur](http://i.imgur.com/qjmwc0O.png)
 
 
 Enter the your choice ('x' to exit)
 
 
-![image](http://i.imgur.com/RbP1UkT.png)
+[Imgur](http://i.imgur.com/edsvg1f.png)
 
