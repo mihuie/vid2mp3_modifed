@@ -8,10 +8,6 @@ It communicates with listentoyoutube.com for this purpose.
 Vimeo.com, dailymotion.com, metacafe.com are also supported by this tool.
 '''
 
-__appname__ = "vid2mp3"
-__version__ = "0.1.3"
-__author__ = "iamsudip <iamsudip@programmer.net>, modifed by github.com/mihuie"
-__license__ = "MIT"
 
 import requests
 import sys, os
